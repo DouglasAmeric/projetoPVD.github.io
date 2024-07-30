@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    padding-top: 20px ;
+}
+body{
+    background-color: #373737;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    height: 70px;
+}
+header nav ul li{
+    margin-bottom: 60px;
+    background-color: rgb(59, 59, 161);
+}
+
+header nav ul li a{
+    display: flex;
+    padding: 20px; 
+    text-decoration: none;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+header nav ul li a i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+header nav ul li a:hover{
+    background-color: #555;
+}
+.formulario{
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    display: flex;
+    width: 400px;
+    height: 100%;
+    flex-direction: column;
+}
+.formulario h2{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    height: 70%;
+    margin: 100px 0;
+}
+.formulario form label{
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.formulario form input{
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+.formulario form select{
+    appearance: none;
+    padding: 7px;
+    border: 2px solid #ccc;
+    outline: none;
+    text-transform: uppercase;
+
+}
+.formulario form select option{
+    border-radius: 0;
+}
+
+.formulario form select:focus{
+    border-color:  #000;
+}
+.formulario form button{
+    padding: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ffff;
+    background-color: blue;
+    border: none;
+}
+.formulario form button:hover{
+    background-color: #555;
+}
+.tabela{
+    position: fixed;
+    left: 850px;
+    top: 20px;
+    display: flex;
+    width: 400px;
+    height: 100%;
+    flex-direction: column;
+}
+.tabela h2{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tabela table{
+    color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tabela table, .tabela th, .tabela td{
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.tabela th{
+    background-color: #f2f2f2;
+    color: #333;
+}
