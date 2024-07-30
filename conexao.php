@@ -2,7 +2,7 @@
 // forma de conexão new MysQli 1-host 2-usuario 3-senha 4-database 5-porta do database
     $host = 'localhost';
     $usuario = 'root';
-    $senha = 'bancoDeDados@1';
+    $senha = '';
     $database = 'pvd';
     
 
